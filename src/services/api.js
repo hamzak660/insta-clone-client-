@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://insta-clone-server-sage.vercel.app/api',
+  baseURL: 'insta-clone-server-aqifyp15k-hamzak660s-projects.vercel.app/api',
 });
 
 api.interceptors.request.use((config) => {
